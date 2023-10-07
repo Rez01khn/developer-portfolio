@@ -4,8 +4,7 @@ body{
 }
 section{
     display: flex;
-    padding-left: 5%;
-    
+    padding-left: 5%; 
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -17,21 +16,30 @@ section{
 .half-width img{
     width: 85%;
 }
+.topdown-banner{
+    padding-top: 10%;
+    background-image: url(images/dream-bg.png);
+    background-position:100% 100%;
+    background-repeat: no-repeat;
+
+}
 .link-button
 {
     text-decoration: none;
-    padding:5px 20px;
+    padding:10px 25px;
     background-image: linear-gradient(rgb(204, 141, 25), tomato);
     border: 10%;
+    border-radius: 5% 5%;
     font-weight: 700;
     color: white;
+
 }
 
 .name-color
 {
     color: rgb(236, 170, 84);
 }
-#para-width{
+.para-width{
     width: 85%; 
 }
 h1{
