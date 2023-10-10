@@ -2,9 +2,10 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.flexible{
     display: flex;
-    padding-left: 5%; 
+    padding-left: 5%;
+    
 }
 .top-banner{
     background-image: url(images/top-banner.png);
@@ -19,7 +20,7 @@ section{
 .topdown-banner{
     padding-top: 10%;
     background-image: url(images/dream-bg.png);
-    background-position:100% 100%;
+    background-position:100% 85%;
     background-repeat: no-repeat;
 
 }
@@ -45,4 +46,36 @@ section{
 h1{
     font-size: 46px;
 }
+.backgimg{
+    background-image:  url(images/exp-bg.png);
+    background-position: left 90% ;
+    background-repeat: no-repeat;
+    
+}
+.expr{
+    padding-top: 10%;
+}
+.shadow{    
+   width: 45%;
+   margin-left: 1%;
+   margin-right: 5%;
+   padding-left: 15px;
+   padding-bottom: 40px;
+   border-radius: 0;
+   box-shadow: 10px 10px 40px rgb(10, 10, 10);
+   font-weight:  700px;
+}
+#shadowone{
+    border-left: 7px solid rgb(214, 48, 18);
+}
+#shadow-second{
+    border-left: 7px solid blue;   
+}
 
+h2{
+    font-size: 35px;
+}
+#fool{
+    text-align: center;
+    padding-top: 14%;
+}
